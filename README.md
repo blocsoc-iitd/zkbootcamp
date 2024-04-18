@@ -6,7 +6,7 @@ By the end of the boot camp, all the boot campers should get a clear overview of
 
 ## Timings: 
 
-- Kickoff: 6th or 7th of May 2024, offline.
+- Kickoff: 8th May 2024, offline.
 
 - Number of Weeks: 8 Week(s) + 1 Week.
 
@@ -99,11 +99,14 @@ Intro to ZK (high level)
 ### Math primitives
 
 [[ Manoj, feel free to put your preferred math topics here, this is borrowed from Lecture #4 of zkSync zkEVM Bootcamp --Coogan]]
+we can go a bit hard on this intro, students here will definetly have a strong math background. and have dealt with much more compilcated math of JEE advanced. 
+i would suggest [zk book by rareskills](https://rareskills.io).
+
 - Cryptography review
 - Mathematical terminology
 - Modular arithmetic
-- Group and Field theory
 - Introduction to polynomials
+- Group and Field theory
 - Complexity theory
 - Introduction to Zero Knowledge
 - Proofs
@@ -117,12 +120,13 @@ The most crucial part of the boot camp. Those who complete this can understand a
 - Universal Circuits / Circuit Compiler
 - Proving Systems
 
-
 Additional content: Build circuits using Rust
 
 ## Week 7-8: SNARKs, STARKs 
 (Lecture #16, 17 in zkEVM Bootcamp)
 
+ It could be better if we could, make these programmed in arkworks or gnark or circom.
+ And give a complete overview of how these prooving systems work. like in [groth16 by rareskills](https://www.rareskills.io/post/groth16) or [plonk by lambdaclass](https://blog.lambdaclass.com/all-you-wanted-to-know-about-plonk/)
 ### SNARK Implementation
 - SNARK process overview
 - Polynomial Checking
@@ -139,24 +143,18 @@ Additional content: Build circuits using Rust
 - Stark arithmetisation
 - FRI background
 
+- Lookups
+- Sumcheck
+- Recursion
+  
+### Extra Week:
+- Variants of Proving systems by varying Polynomial commitment schemes.
+- Different arithmatisation(s) techniques-> not much but a high level overview.
+- Plonky2 hands-on?? a few simple examples.
+- General purpose ZKVM's
+- Nova, HyperPlonk, Spartan, Binius (afaik most research these days are happening on these), so it could be better if implementation overview 
 
-(Not sure what to do with these:)
-### Libraries / Abstractions
-- Circom, Gnark
-- DSLs
-
-### Advanced Topics
-- Folding schemes
-- Formal Verification
-- 
-
-## Extra Week:
-- More on ZK Math
-- zkML
-- ZK-DSL(s)
-
-
-
+Linking to more resources for ZK development.
 
 ####################################################################################
 
