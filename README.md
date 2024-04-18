@@ -98,9 +98,7 @@ Intro to ZK (high level)
 
 ### Math primitives
 
-[[ Manoj, feel free to put your preferred math topics here, this is borrowed from Lecture #4 of zkSync zkEVM Bootcamp --Coogan]]
-we can go a bit hard on this intro, students here will definetly have a strong math background. and have dealt with much more compilcated math of JEE advanced. 
-i would suggest [zk book by rareskills](https://rareskills.io).
+[[we can go a bit hard on this intro; students here will definitely have a strong math background. And have dealt with much more complicated math of JEE advanced. I would suggest something like this for this week [zk book by rareskills](https://rareskills.io).]]
 
 - Cryptography review
 - Mathematical terminology
@@ -125,7 +123,7 @@ Additional content: Build circuits using Rust
 ## Week 7-8: SNARKs, STARKs 
 (Lecture #16, 17 in zkEVM Bootcamp)
 
- It could be better if we could, make these programmed in arkworks or gnark or circom.
+ It would be better to make these programmed in arkworks, snark, or circom.
  And give a complete overview of how these prooving systems work. like in [groth16 by rareskills](https://www.rareskills.io/post/groth16) or [plonk by lambdaclass](https://blog.lambdaclass.com/all-you-wanted-to-know-about-plonk/)
 ### SNARK Implementation
 - SNARK process overview
@@ -143,19 +141,20 @@ Additional content: Build circuits using Rust
 - Stark arithmetisation
 - FRI background
 
-- Lookups
-- Sumcheck
-- Recursion
+Math background of these topics would be better: lookups are introduced in Lesson 12, but it is not math-oriented. Recursion, proof composition and aggregation are introduced in Lesson 13.
+- Lookups.
+- Sumcheck.
   
+Additional Resources: Starkware, lambdaclass, scroll, risc0 blogs. Toy Plonk & ZkVm implementations.
+
 ### Extra Week:
-- Variants of Proving systems by varying Polynomial commitment schemes.
-- Different arithmatisation(s) techniques-> not much but a high level overview.
-- Plonky2 hands-on?? a few simple examples.
+- Plonky2 hands-on examples.
 - General purpose ZKVM's
-- Nova, HyperPlonk, Spartan, Binius (afaik most research these days are happening on these), so it could be better if implementation overview 
+- Nova, HyperPlonk, Spartan, Binius (afaik most research these days are happening on these), so it would be better to give an overview of these.
 
 Linking to more resources for ZK development.
 
+[[ Hey Coogan, being a bit focused on the math background of ZK could be better. But, it is up to you to choose the best way possible]]  
 ####################################################################################
 
 
