@@ -6,7 +6,7 @@ By the end of the boot camp, all the boot campers should get a clear overview of
 
 ## Timings: 
 
-- Kickoff: 6th or 7th of May 2024, offline.
+- Kickoff: 8th May 2024, offline.
 
 - Number of Weeks: 8 Week(s) + 1 Week.
 
@@ -98,12 +98,13 @@ Intro to ZK (high level)
 
 ### Math primitives
 
-[[ Manoj, feel free to put your preferred math topics here, this is borrowed from Lecture #4 of zkSync zkEVM Bootcamp --Coogan]]
+[[we can go a bit hard on this intro; students here will definitely have a strong math background. And have dealt with much more complicated math of JEE advanced. I would suggest something like this for this week [zk book by rareskills](https://rareskills.io).]]
+
 - Cryptography review
 - Mathematical terminology
 - Modular arithmetic
-- Group and Field theory
 - Introduction to polynomials
+- Group and Field theory
 - Complexity theory
 - Introduction to Zero Knowledge
 - Proofs
@@ -117,12 +118,13 @@ The most crucial part of the boot camp. Those who complete this can understand a
 - Universal Circuits / Circuit Compiler
 - Proving Systems
 
-
 Additional content: Build circuits using Rust
 
 ## Week 7-8: SNARKs, STARKs 
 (Lecture #16, 17 in zkEVM Bootcamp)
 
+ It would be better to make these programmed in arkworks, snark, or circom.
+ And give a complete overview of how these prooving systems work. like in [groth16 by rareskills](https://www.rareskills.io/post/groth16) or [plonk by lambdaclass](https://blog.lambdaclass.com/all-you-wanted-to-know-about-plonk/)
 ### SNARK Implementation
 - SNARK process overview
 - Polynomial Checking
@@ -139,25 +141,20 @@ Additional content: Build circuits using Rust
 - Stark arithmetisation
 - FRI background
 
+The math background of these topics would be better: lookups are introduced in Lesson 12, but it is not math-oriented. Recursion, proof composition and aggregation are introduced in Lesson 13.
+- Lookups.
+- Sumcheck.
+  
+Additional Resources: Starkware, lambdaclass, scroll, risc0 blogs. Toy Plonk & ZkVm implementations.
 
-(Not sure what to do with these:)
-### Libraries / Abstractions
-- Circom, Gnark
-- DSLs
+### Extra Week:
+- Plonky2 hands-on examples.
+- General purpose ZKVM's
+- Nova, HyperPlonk, Spartan, Binius (afaik most research these days are happening on these), so it would be better to give an overview of these.
 
-### Advanced Topics
-- Folding schemes
-- Formal Verification
-- 
+Linking to more resources for ZK development.
 
-## Extra Week:
-- More on ZK Math
-- zkML
-- ZK-DSL(s)
-
-
-
-
+[[ Hey Coogan, being a bit focused on the math and coding could be better. But, it is up to you to choose the best way possible]]  
 ####################################################################################
 
 
