@@ -141,7 +141,7 @@ Additional content: Build circuits using Rust
 - Stark arithmetisation
 - FRI background
 
-Math background of these topics would be better: lookups are introduced in Lesson 12, but it is not math-oriented. Recursion, proof composition and aggregation are introduced in Lesson 13.
+The math background of these topics would be better: lookups are introduced in Lesson 12, but it is not math-oriented. Recursion, proof composition and aggregation are introduced in Lesson 13.
 - Lookups.
 - Sumcheck.
   
@@ -154,7 +154,7 @@ Additional Resources: Starkware, lambdaclass, scroll, risc0 blogs. Toy Plonk & Z
 
 Linking to more resources for ZK development.
 
-[[ Hey Coogan, being a bit focused on the math background of ZK could be better. But, it is up to you to choose the best way possible]]  
+[[ Hey Coogan, being a bit focused on the math and coding could be better. But, it is up to you to choose the best way possible]]  
 ####################################################################################
 
 
