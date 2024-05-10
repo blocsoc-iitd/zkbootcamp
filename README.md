@@ -6,7 +6,7 @@ By the end of the boot camp, all the boot campers should get a clear overview of
 
 ## Timings: 
 
-- Kickoff: 8th May 2024, offline.
+- Kickoff: 5th May 2024, offline.
 
 - Number of Weeks: 8 Week(s) + 1 Week.
 
@@ -18,12 +18,11 @@ By the end of the boot camp, all the boot campers should get a clear overview of
 
 ## Content:
 
-- General Recommendation: Learn Rust from Day 0. 
-- zustlings
-- Reading?
-
-// BLOCKCHAIN OVERVIEW
-
+- General Recommendation: Learn Rust from Day 0.
+- (https://doc.rust-lang.org/stable/book/) - The Rust Book
+- (https://youtu.be/OX9HJsJUDxA?si=1xtatEZ4VTrEzKu5) - Let's Get Rusty Playlist
+- (https://doc.rust-lang.org/rust-by-example/index.html) - Rust by Example
+- (https://github.com/rust-lang/rustlings) - Rustlings
 
 ### Week 1: Intro to L1 "Primitives" 
 - General intro to Blockchain
@@ -40,15 +39,15 @@ By the end of the boot camp, all the boot campers should get a clear overview of
 
 Additional content(only for those interested): Docs of Alchemy / Alchemy University to build a DApp.
 
-* [Bootcamp:Learn Blockchain, Solidity and Full Stack JavaScript Development:](https://www.freecodecamp.org/news/learn-blockchain-solidity-full-stack-javascript-development/){target=_blank} A 32 hour long comprehensive Blockchain Development Bootcamp by Patrick Collins
-* [Course: CryptoZombies](https://cryptozombies.io/){target=_blank} One of the most well-known introductions to Solidity
-* [Course: Ethernaut (OpenZeppelin)](https://ethernaut.openzeppelin.com/){target=_blank} An excellent in-browser "game" teaching Solidity from a security perspective.
-* [Course: Intro to Solidity (Chainshot)](https://www.chainshot.com/learn/solidity){target=_blank} Chainshot uses a very cool interactive platform to teach Solidity
-* [Wiki: Solidity by Example](https://www.solidity-by-example.org){target=_blank} A bunch of great examples of Solidity, including excellent design patterns, hacks and security tips.
-* [Wiki: Use Web3](https://useweb3.xyz/){target=_blank} Another good collection of learning resources
-* [Article: Test Driven Introduction to Solidity](https://michalzalecki.com/ethereum-test-driven-introduction-to-solidity/){target=_blank} From an older pragma version of Solidity, but might be interesting to check out! Repo accompanying the article [here.](https://github.com/MichalZalecki/tdd-solidity-intro){target=_blank}
-* [Thread: What Does Ethereum Development Look Like Today?](https://twitter.com/smpalladino/status/1421901085279756300){target=_blank} Santiago Palladino, who wrote [Ethereum for Web Developers,](https://www.apress.com/gp/book/9781484252772){target=_blank} updates parts of his book for the current Ethereum ecosystem.
-* [Article: Learn X in Y Minutes (Solidity)](https://learnxinyminutes.com/docs/solidity/){target=_blank} A bit long and rough, but a comprehensive overview of learning Solidity
+* [Bootcamp:Learn Blockchain, Solidity and Full Stack JavaScript Development:](https://www.freecodecamp.org/news/learn-blockchain-solidity-full-stack-javascript-development/)A 32 hour long comprehensive Blockchain Development Bootcamp by Patrick Collins
+* [Course: CryptoZombies](https://cryptozombies.io/) One of the most well-known introductions to Solidity
+* [Course: Ethernaut (OpenZeppelin)](https://ethernaut.openzeppelin.com/) An excellent in-browser "game" teaching Solidity from a security perspective.
+* [Course: Intro to Solidity (Chainshot)](https://www.chainshot.com/learn/solidity) Chainshot uses a very cool interactive platform to teach Solidity
+* [Wiki: Solidity by Example](https://www.solidity-by-example.org) A bunch of great examples of Solidity, including excellent design patterns, hacks and security tips.
+* [Wiki: Use Web3](https://useweb3.xyz/) Another good collection of learning resources
+* [Article: Test Driven Introduction to Solidity](https://michalzalecki.com/ethereum-test-driven-introduction-to-solidity/) From an older pragma version of Solidity, but might be interesting to check out! Repo accompanying the article [here.](https://github.com/MichalZalecki/tdd-solidity-intro)
+* [Thread: What Does Ethereum Development Look Like Today?](https://twitter.com/smpalladino/status/1421901085279756300) Santiago Palladino, who wrote [Ethereum for Web Developers,](https://www.apress.com/gp/book/9781484252772) updates parts of his book for the current Ethereum ecosystem.
+* [Article: Learn X in Y Minutes (Solidity)](https://learnxinyminutes.com/docs/solidity/)  A bit long and rough, but a comprehensive overview of learning Solidity
 
 ### Week 2: Protocol Development Deep-Dive
 
@@ -60,9 +59,9 @@ This week acts as a starter to Rust for everyone and to make everyone code in Ru
 
 Additional Content (only for those interested):
 
-- [Bitcoin White Paper Exercises](https://github.com/cooganb/bitcoin-whitepaper-exercises){target=_blank} These are a series of exercises, built by [Kyle Simpson,](https://github.com/getify){target=_blank} for understanding some of the concepts outlined in the Bitcoin white paper. These are not easy, but if you really would like to understand these fundamentals as they apply to blockchains, this is a great place to start.
- - [CryptoHack](https://cryptohack.org/){target=_blank} "A fun free platform for learning modern cryptography"
- - [CryptoPals](https://cryptopals.com/){target=_blank} This is *very* advanced and intense, but real to-the-metal applied cryptography! I am putting this link in here and it scares me.
+- [Bitcoin White Paper Exercises](https://github.com/cooganb/bitcoin-whitepaper-exercises) These are a series of exercises, built by [Kyle Simpson,](https://github.com/getify){target=_blank} for understanding some of the concepts outlined in the Bitcoin white paper. These are not easy, but if you really would like to understand these fundamentals as they apply to blockchains, this is a great place to start.
+ - [CryptoHack](https://cryptohack.org/)"A fun free platform for learning modern cryptography"
+ - [CryptoPals](https://cryptopals.com/) This is *very* advanced and intense, but real to-the-metal applied cryptography! I am putting this link in here and it scares me.
 
 ### Week 3: Scalability
 
@@ -97,8 +96,6 @@ Intro to ZK (high level)
 * ZK as privacy
 
 ### Math primitives
-
-[[we can go a bit hard on this intro; students here will definitely have a strong math background. And have dealt with much more complicated math of JEE advanced. I would suggest something like this for this week [zk book by rareskills](https://rareskills.io).]]
 
 - Cryptography review
 - Mathematical terminology
@@ -154,18 +151,12 @@ Additional Resources: Starkware, lambdaclass, scroll, risc0 blogs. Toy Plonk & Z
 
 Linking to more resources for ZK development.
 
-[[ Hey Coogan, being a bit focused on the math and coding could be better. But, it is up to you to choose the best way possible]]  
-####################################################################################
-
-
 ORIGINAL DRAFT FOR REFERENCE:
 
 
 ## Implementation
 
 
-
-// TODO: Distinguish these a bit
 
 ### Week 4: Intro to ZK
 
@@ -204,8 +195,6 @@ IVC, NOVA
 - "Programmable Encryption"
 
 These are taught in theory and code.
-
-### Week 
 
 ### Week 8:
 
