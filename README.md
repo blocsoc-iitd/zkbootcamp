@@ -18,11 +18,11 @@ By the end of the boot camp, all the boot campers should get a clear overview of
 
 ## Content:
 
-- General Recommendation: Learn Rust from Day 0. 
-- zustlings
-- Reading
-- BLOCKCHAIN OVERVIEW
-
+- General Recommendation: Learn Rust from Day 0.
+- (https://doc.rust-lang.org/stable/book/) - The Rust Book
+- (https://youtu.be/OX9HJsJUDxA?si=1xtatEZ4VTrEzKu5) - Let's Get Rusty Playlist
+- (https://doc.rust-lang.org/rust-by-example/index.html) - Rust by Example
+- (https://github.com/rust-lang/rustlings) - Rustlings
 
 ### Week 1: Intro to L1 "Primitives" 
 - General intro to Blockchain
