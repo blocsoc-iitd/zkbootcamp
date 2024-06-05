@@ -18,8 +18,6 @@ By the end of the boot camp, all the boot campers should get a clear overview of
 
 ## Content:
 
-
-
 ### Week 1: Intro to L1 "Primitives" 
 - General intro to Blockchain
   - Decentralised Systems
@@ -27,10 +25,10 @@ By the end of the boot camp, all the boot campers should get a clear overview of
 - Layer1 Theory
 - Blockchain Components
 - Chains Overview
-  - How do [[ Ethereum & Solana ]] work at the consensus and execution layer?
+  - How do Ethereum & Solana work at the consensus and execution layer?
   - Trade-offs // "Trade spaces" Design decisions made by protocols to prioritize different things. Ethereum vs Solana etc.
-  - Modular vs Monolithic Execution (<< Could also put this in Scalability section>>)
-  - Alt VMs (touch on briefly)
+  - Modular vs Monolithic Execution 
+  - Alt VMs 
   
 Additional Content (only for those interested):
 
@@ -45,18 +43,18 @@ This week acts as a starter to Rust for everyone and to make everyone code in Ru
 
 - Development on Ethereum(probably in Rust/GO 😉).
   - Protocol-level Development (P2P, Transaction Processing, "Node / Client Development") 
-  - [[ Perhaps you'd want to check out the "Consensus" section from [this course](https://github.com/ConsenSys-Academy/Blockchain-Developer-Bootcamp/tree/1c47761d403026d55f54b36f62e33b1127e8da61/docs/S01-fundamentals) I built at Consensys]]
+  - [[ Perhaps you'd want to check out this section from [this course](https://github.com/ConsenSys-Academy/Blockchain-Developer-Bootcamp/tree/1c47761d403026d55f54b36f62e33b1127e8da61/docs/S01-fundamentals) Built by Consensys]]
 
 Rust resources:
 - General Recommendation: Learn Rust from Day 0.
 - (https://doc.rust-lang.org/stable/book/) - The Rust Book
-- (https://rust-book.cs.brown.edu/) - Rust book with more detailed explanation and quizzes
+- (https://rust-book.cs.brown.edu/) - Rust book with more detailed explanations and quizzes
 - (https://youtu.be/OX9HJsJUDxA?si=1xtatEZ4VTrEzKu5) - Let's Get Rusty Playlist
 - (https://doc.rust-lang.org/rust-by-example/index.html) - Rust by Example
 - (https://github.com/rust-lang/rustlings) - Rustlings
 
 Go resources:
-- Basic : https://www.w3schools.com/go/go_syntax.php
+- Basic: https://www.w3schools.com/go/go_syntax.php
 - Go Channel Structure: https://blog.logrocket.com/how-use-go-channels/#:~:text=How%20to%20use%20Go%20channels%201%20Creating%20a,channel%20...%205%20Channels%20as%20function%20parameters%20
 - Context: https://www.golinuxcloud.com/golang-context/
 - Official docs: https://go.dev/doc/tutorial/
@@ -66,16 +64,16 @@ Go resources:
 
 This week gives an overview of most of the essential concepts in web3.
 
-- Scalability Introduction: Ethereum / Bitcion / etc as L1 (Lectures #2 and #3 in zkSync zkEVM Bootcamp)
+- Scalability Introduction: Ethereum / Bitcoin / etc as L1 (Lectures #2 and #3 in zkSync zkEVM Bootcamp)
   - Scalability Introduction
   - Approaches to Scalability
   - Layer 1 Solutions
   - Off-chain Scaling
-  - Bridges / Sidechains versus layer 2
+  - Bridges / Sidechains versus Layer 2
 - Typical Rollup Architecture
   - L2 Mental Model
   - Sequencers
-  - Mix and Match for: OP Rollups, ZK Rollups, Validiums, "L3s" or "Hyperchains"
+  - Mix and Match for OP Rollups, ZK Rollups, Validiums, "L3s" or "Hyperchains"
 - Rollups in more detail
 - Introduction to zkEVM solutions
 
@@ -89,34 +87,33 @@ Things might seem confusing and tough to understand, but keep reading and explor
 
 ##### RESOURCES FROM DOUBT SESSION
 
-1. Tornado Cash (a use case implentation of zero knowledge proofs) refer to the followinG Rare Skills blog , it explains it throughly in a good 30-45 min read
-https://www.rareskills.io/post/how-does-tornado-cash-work
+1. Tornado Cash (a use case implementation of zero-knowledge proofs) Refer to the following Rare Skills blog. It explains it thoroughly in a good 30-45 min read: https://www.rareskills.io/post/how-does-tornado-cash-work
 
-2. For those already done with rust , implement few programs to get a good command on it. Some recommended stuff will be to : 
+2. For those already done with rust, implement a few programs to get a good command of it. Some recommended stuff will be to : 
 
 a) Implement a simple blockchain in Rust.
 https://blog.logrocket.com/how-to-build-a-blockchain-in-rust/
 
-b) You can develop random things ( CLI , torrent clients ) from scratch as well to test and improve rust , will take a days worth effort.
+b) You can develop random things ( CLI, torrent clients ) from scratch to test and improve rust, which will take a day's effort.
 https://github.com/codecrafters-io/build-your-own-x?tab=readme-ov-file
 
-c) ADVANCED :  You can try and create proofs for your Rust program and have them verified as well. Will give you a basic intution of how zero knowledge proofs are being implemented.
+c) ADVANCED:  You can try creating proofs for your Rust program and have them verified. Will give you a basic intuition of how zero-knowledge proofs are being implemented.
 
 https://dev.risczero.com/api/
 https://succinctlabs.github.io/sp1/
 
-3. For those who are interested and want to get some initial readings and resources on Zero-knowledge proofs , refer to the following resorces. It's recommended to through the ZK-Book with patience in detail ,  while the others can used as extra resources , used randomly however you want.
+3. For those who are interested and want to get some initial readings and resources on Zero-knowledge proofs, refer to the following resources. It's recommended to through the ZK-Book with patience in detail,  while the others can used as extra resources, used randomly however you want.
 
 https://www.rareskills.io/zk-book
 https://zkiap.com/
 https://zkhack.dev/whiteboard/
 
-4. Practice GO a bit parallely. You can use the resources shared earlier to learn GO. And for those who have some experience in GO and want to do some blockchain relevant stuff with it , you can check out the Avalanche ecosystem.
+4. Practice GO a bit parallelly. You can use the resources shared earlier to learn GO. And for those who have some experience in GO and want to do some blockchain-relevant stuff with it, you can check out the Avalanche ecosystem.
 
 https://docs.avax.network/
 https://academy.avax.network/start
 
-You can try implementing precompiles in the Avalanche Subnet EVM. It's a good task which will give you a good idea of many underlying blockchain concepts. It can be tough to grasp in the beginning , but if you are confident enough in your basics then it would be a fun thing to look through the weekend.
+You can try implementing precompiles in the Avalanche Subnet EVM. It's a good task that will give you a good idea of many underlying blockchain concepts. It can be tough to grasp in the beginning, but if you are confident enough in your basics then it would be a fun thing to look through the weekend.
 
 
 ### Week 4: The Road Forward for Blockchain and/or Use Case
@@ -192,74 +189,3 @@ Additional Resources: Starkware, lambdaclass, scroll, risc0 blogs. Toy Plonk & Z
 - Nova, HyperPlonk, Spartan, Binius (afaik most research these days are happening on these), so it would be better to give an overview of these.
 
 Linking to more resources for ZK development.
-
-ORIGINAL DRAFT FOR REFERENCE:
-
-
-## Implementation
-
-
-
-### Week 4: Intro to ZK
-
-- What is ZK?
-
-
-
-
-
-- What is a SNARK & STARK? 
-- Types of SNARKs & STARKS.
-- Fields & Groups.
-- Circom/Gnark.
-
-### Week 5- Week 7: Rust + ZK  --> Circuit writing in rust.
-
-The most crucial part of the boot camp. Those who complete this can understand and write circuits and build Zk Dapps independently.
-
-
-
-SNARKs
-- Groth 16, Plonk
-- Starks, AIR, Plonkish Systems
-- Plonky2, Halo2, KGZ, NOVA (folding scheme / IVC), IPA, Pedersen commitments...
-
-STARKs
-- Lookups, Range checks
-- DEEP FRI, Recursion
-- FFT, NTT, Fiat Shamir, Lagrange Basis, Low degree extensions.
-
-## Advanced Topics
-- Libraries -> Ark works/lambda works (Winterfell, bellman)
-- Folding Schemes
-IVC, NOVA
-- ZK ML
-- "Programmable Encryption"
-
-These are taught in theory and code.
-
-### Week 8:
-
-- ZK EVM, ZK Rollups.
-- Sequencers
-- ZK-DSL(s)
-
-
-### Extra Week :
-
-- More on ZK Math.
-- ZK ML
-
-
-
-Additional content(only for those interested): Docs of Alchemy / Alchemy University to build a DApp.
-
-* [Bootcamp:Learn Blockchain, Solidity and Full Stack JavaScript Development:](https://www.freecodecamp.org/news/learn-blockchain-solidity-full-stack-javascript-development/)A 32 hour long comprehensive Blockchain Development Bootcamp by Patrick Collins
-* [Course: CryptoZombies](https://cryptozombies.io/) One of the most well-known introductions to Solidity
-* [Course: Ethernaut (OpenZeppelin)](https://ethernaut.openzeppelin.com/) An excellent in-browser "game" teaching Solidity from a security perspective.
-* [Course: Intro to Solidity (Chainshot)](https://www.chainshot.com/learn/solidity) Chainshot uses a very cool interactive platform to teach Solidity
-* [Wiki: Solidity by Example](https://www.solidity-by-example.org) A bunch of great examples of Solidity, including excellent design patterns, hacks and security tips.
-* [Wiki: Use Web3](https://useweb3.xyz/) Another good collection of learning resources
-* [Article: Test Driven Introduction to Solidity](https://michalzalecki.com/ethereum-test-driven-introduction-to-solidity/) From an older pragma version of Solidity, but might be interesting to check out! Repo accompanying the article [here.](https://github.com/MichalZalecki/tdd-solidity-intro)
-* [Thread: What Does Ethereum Development Look Like Today?](https://twitter.com/smpalladino/status/1421901085279756300) Santiago Palladino, who wrote [Ethereum for Web Developers,](https://www.apress.com/gp/book/9781484252772) updates parts of his book for the current Ethereum ecosystem.
-* [Article: Learn X in Y Minutes (Solidity)](https://learnxinyminutes.com/docs/solidity/)  A bit long and rough, but a comprehensive overview of learning Solidity
