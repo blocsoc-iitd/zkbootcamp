@@ -232,9 +232,7 @@ If you come across any other good resources, feel free to share them in the g
   3) https://research.metastate.dev/plonk-by-hand-part-3-verification
 - ZkVm implementations: https://eprint.iacr.org/2023/1032.pdf
   CRAZY IMPLEMENTATION - https://blog.cryptape.com/building-a-zero-knowledge-virtual-machine-on-ckb-vm-for-privacy-preserving-and-secure-computing
-- a16z: https://github.com/orgs/a16z/repositories
-   1) https://github.com/a16z/jolt
-   2) https://github.com/a16z/Spartan2
+- a16z: [Blogs on ZK-Proof Systems](https://a16zcrypto.com/posts/?tag=zkps-zero-knowledge-proofs-systems-more)
 
 ## Linking to more resources for ZK development
 - https://trapdoortech.medium.com/
