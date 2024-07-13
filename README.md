@@ -168,12 +168,12 @@ The most crucial part of the boot camp. Those who complete this can understand a
 https://github.com/LuozhuZhang/awesome-zkevm
 
 ### Additional :
-- https://github.com/kkrt-labs/kakarot/
-- https://github.com/0xPolygonHermez/
-- https://github.com/scroll-tech/zkevm-circuits/
+- Kakarot: https://github.com/kkrt-labs/kakarot/
+- Polygon: https://github.com/0xPolygonHermez/
+- Scroll: https://github.com/scroll-tech/zkevm-circuits/
 ## Week 7: SNARKs
 
-Lectur By Porter : https://youtu.be/gwP0sUxyYls?si=7oljYS6ynZdktJDz
+Lecture By Porter : https://youtu.be/gwP0sUxyYls?si=7oljYS6ynZdktJDz
  It would be better to make these programmed in arkworks, snark, or circom.
  And give a complete overview of how these prooving systems work. like in [groth16 by rareskills](https://www.rareskills.io/post/groth16) or [plonk by lambdaclass](https://blog.lambdaclass.com/all-you-wanted-to-know-about-plonk/)
 ### SNARK Implementation
@@ -222,7 +222,19 @@ a good project to go with  https://neptune.cash/learn/brainfuck-tutorial/ - A tu
 If you come across any other good resources, feel free to share them in the group.
 
 ### Additional Resources: 
-Starkware, lambdaclass, scroll, risc0 blogs. Toy Plonk & ZkVm implementations.
+- Starkware: https://eprint.iacr.org/2021/1063
+- lambdaclass: https://github.com/lambdaclass/STARK101-rs
+- scroll: https://scroll.io/blog/zkevm
+- risc0 blogs: https://dev.risczero.com/api
+- Toy Plonk: https://github.com/adria0/plonk-by-fingers?tab=readme-ov-file
+  1) https://research.metastate.dev/plonk-by-hand-part-1/
+  2) https://research.metastate.dev/plonk-by-hand-part-2-the-proof
+  3) https://research.metastate.dev/plonk-by-hand-part-3-verification
+- ZkVm implementations: https://eprint.iacr.org/2023/1032.pdf
+  CRAZY IMPLEMENTATION - https://blog.cryptape.com/building-a-zero-knowledge-virtual-machine-on-ckb-vm-for-privacy-preserving-and-secure-computing
+- a16z: https://github.com/orgs/a16z/repositories
+   1) https://github.com/a16z/jolt
+   2) https://github.com/a16z/Spartan2
 
 ## Linking to more resources for ZK development
 - https://trapdoortech.medium.com/
