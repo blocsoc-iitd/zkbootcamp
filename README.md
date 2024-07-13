@@ -16,9 +16,11 @@ By the end of the boot camp, all the boot campers should get a clear overview of
     - 1 online session will be on giving an overview of the week's syllabus. (think of it as video lectures in MOOC).
     - The other session could be doubt-solving or an overview session.
 
-## Content:
 
-### Week 1: Intro to L1 "Primitives" 
+
+## Week 1: Intro to L1 "Primitives" 
+
+Lecture By Rahul Saxena : https://youtu.be/cUYeTqiKLtg?si=RmW1Cq1SW_fPufU1
 - General intro to Blockchain
   - Decentralised Systems
 - Blockchain Timeline
@@ -37,7 +39,7 @@ Additional Content (only for those interested):
  - [CryptoPals](https://cryptopals.com/) This is *very* advanced and intense, but real to-the-metal applied cryptography! I am putting this link in here and it scares me.
 
 
-### Week 2: Protocol Development Deep-Dive
+## Week 2: Protocol Development Deep-Dive
 
 This week acts as a starter to Rust for everyone and to make everyone code in Rust at a basic level. 
 
@@ -60,7 +62,7 @@ Go resources:
 - Official docs: https://go.dev/doc/tutorial/
 
 
-### Week 3: Scalability
+## Week 3: Scalability
 
 This week gives an overview of most of the essential concepts in web3.
 
@@ -116,15 +118,20 @@ https://academy.avax.network/start
 You can try implementing precompiles in the Avalanche Subnet EVM. It's a good task that will give you a good idea of many underlying blockchain concepts. It can be tough to grasp in the beginning, but if you are confident enough in your basics then it would be a fun thing to look through the weekend.
 
 
-### Week 4: The Road Forward for Blockchain and/or Use Case
+## Week 4: The Road Forward for Blockchain and/or Use Case
 - Ethereum's Rollup-centric roadmap and alt narratives...
 - DA Layers, Alt VMs(MoveVM, WasmVM, Solana VM)
 - Data Availability / Protodanksharding
 - Decentralised Identities, Bridges(ZK and non ZK bridges).
 
-Resources:
+### Resources:
 - Restaking and Eigen Layer: https://docs.eigenlayer.xyz/assets/files/EigenLayer_WhitePaper-88c47923ca0319870c611decd6e562ad.pdf
 - DAS:  https://weufoundation.medium.com/foundations-of-data-availability-sampling-1a8033d8c9fc
+- Celestia white paper:(celestia offers Data availability): https://arxiv.org/abs/1905.09274
+- Awesome AVS(about eigenlayer restaking possibilities): https://github.com/Layr-Labs/awesome-avs
+
+### Additional Resources :
+- https://www.youtube.com/watch?v=RG7A0flGJNM
 - Celestia white paper:(celestia offers Data availability): https://arxiv.org/abs/1905.09274
 - Awesome AVS(about eigenlayer restaking possibilities): https://github.com/Layr-Labs/awesome-avs
 
@@ -144,21 +151,29 @@ Intro to ZK (high level)
 - Complexity theory
 - Introduction to Zero Knowledge
 - Proofs
+### Resources :
+- Zk-book - https://www.rareskills.io/zk-book
 
+### Advanced Resources :
+https://github.com/LeastAuthority/moonmath-manual/releases/latest/download/main-moonmath.pdf
 ## Week 6: What are zkEVMs?
 
 The most crucial part of the boot camp. Those who complete this can understand and write circuits and build Zk Dapps independently.
 
-(Lectures 11-13 from zkEVM Bootcamp)
 - Overview
 - Universal Circuits / Circuit Compiler
 - Proving Systems
 
-Additional content: Build circuits using Rust
+### Resources for building :
+https://github.com/LuozhuZhang/awesome-zkevm
 
-## Week 7-8: SNARKs, STARKs 
-(Lecture #16, 17 in zkEVM Bootcamp)
+### Additional :
+- https://github.com/kkrt-labs/kakarot/
+- https://github.com/0xPolygonHermez/
+- https://github.com/scroll-tech/zkevm-circuits/
+## Week 7: SNARKs
 
+Lectur By Porter : https://youtu.be/gwP0sUxyYls?si=7oljYS6ynZdktJDz
  It would be better to make these programmed in arkworks, snark, or circom.
  And give a complete overview of how these prooving systems work. like in [groth16 by rareskills](https://www.rareskills.io/post/groth16) or [plonk by lambdaclass](https://blog.lambdaclass.com/all-you-wanted-to-know-about-plonk/)
 ### SNARK Implementation
@@ -170,6 +185,20 @@ Additional content: Build circuits using Rust
 - Verification cost
 
 - Circom, Gnark
+- Lookups
+- Sumcheck
+
+### Resources :
+1) Circle stark - https://elibensasson.blog/why-im-excited-by-circle-stark-and-stwo/
+2) Plonk - https://blog.lambdaclass.com/all-you-wanted-to-know-about-plonk/
+3) Sumcheck - https://blog.lambdaclass.com/have-you-checked-your-sums/
+4) IPA - https://blog.lambdaclass.com/ipa-and-a-polynomial-commitment-scheme/
+5) Binius - https://vitalik.eth.limo/general/2024/04/29/binius.html
+6) ProofArgsAndZk book - https://people.cs.georgetown.edu/jthaler/ProofsArgsAndZK.html
+7) Zk-book - https://www.rareskills.io/zk-book
+8) Groth16 - https://www.rareskills.io/post/groth16
+
+## Week 8 : STARKs
 
 ### STARK Implementation
 - Reed Solomon codewords
@@ -180,12 +209,22 @@ Additional content: Build circuits using Rust
 The math background of these topics would be better: lookups are introduced in Lesson 12, but it is not math-oriented. Recursion, proof composition and aggregation are introduced in Lesson 13.
 - Lookups.
 - Sumcheck.
-  
-Additional Resources: Starkware, lambdaclass, scroll, risc0 blogs. Toy Plonk & ZkVm implementations.
+### Resources:
 
-### Extra Week:
-- Plonky2 hands-on examples.
-- General purpose ZKVM's
-- Nova, HyperPlonk, Spartan, Binius (afaik most research these days are happening on these), so it would be better to give an overview of these.
+1) https://vitalik.eth.limo/general/2017/11/09/starks_part_1.html
+2) https://vitalik.eth.limo/general/2017/11/22/starks_part_2.html
+3) https://vitalik.eth.limo/general/2018/07/21/starks_part_3.html
+4) https://starkware.co/stark-101/  , hands-on for writing starks from scratch in python
+5) https://github.com/lambdaclass/STARK101-rs , rust version of the above
+6) https://medium.com/starkware/tagged/stark-math 
+7) https://neptune.cash/learn/stark-anatomy/ this is a 6-part series on writing starks in python.
+a good project to go with  https://neptune.cash/learn/brainfuck-tutorial/ - A tutorial on building a project demonstrating the computational integrity of a program written in Brainfuck.
+If you come across any other good resources, feel free to share them in the group.
 
-Linking to more resources for ZK development.
+### Additional Resources: 
+Starkware, lambdaclass, scroll, risc0 blogs. Toy Plonk & ZkVm implementations.
+
+## Linking to more resources for ZK development
+- https://trapdoortech.medium.com/
+- https://github.com/ventali/awesome-zk
+- https://www.youtube.com/@zeroknowledgefm
